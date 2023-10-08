@@ -1,0 +1,41 @@
+.navlink {
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 0rem 1.2rem !important;
+    margin-top: 1rem;
+    width: 100%;
+    position: relative;
+  }
+  
+  ul li {
+    margin-right: 1.5rem;
+  }
+  
+  .navlink::after {
+    content: "";
+    position: absolute;
+    bottom: -40%;
+    left: -5%;
+    right: 0;
+    width: 110%;
+    height: 4rem;
+    z-index: -4;
+    background-color: rgba(255, 255, 255, 0.552);
+    opacity: 0.5;
+    filter: drop-shadow(3px 4px 4px white);
+
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  
+  @media only screen and (max-width: 920px) {
+    .navlink::after {
+      content: "";
+      width: 100%;
+      left: 0;
+      right: 0;
+    }
+  }
+  

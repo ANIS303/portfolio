@@ -1,0 +1,21 @@
+.boxAbout{
+    background-image: url(../../assest/Artboard\ 22.png);
+    background-position: center;
+    background-size: cover;
+    height: 104vh;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .widimg img{
+        min-width: 100%;
+    }
+  }
+.widimg{
+    margin-top: 10em;
+}

@@ -1,0 +1,48 @@
+.boxProject{
+    background-image: url(../../assest//Artboard\ 44.png);
+    background-position: center ;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+.cardImage {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px  solid #c56f31;
+
+
+  }
+  .imgLayer a{
+    border: 2px solid rgba(159, 159, 159, 0.522);
+    background-color:rgba(0, 0, 0, 0.57) ;
+    border-radius: 10px;
+    padding: 0 13px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .cardImage img {
+    width: 100%;
+
+  }
+  .cardImage .imgLayer {
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(197, 111, 49, 0.711) 30%);
+            border-radius: 0 0 50% 50%;
+    text-align: center;
+    
+    opacity: 0;
+    transition: all 0.7s ease-in;
+  }
+  .cardImage img:hover + .imgLayer{
+    opacity: 1;
+}
+.imgLayer:hover{
+    opacity: 1;}

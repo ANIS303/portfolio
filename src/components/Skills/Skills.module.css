@@ -1,0 +1,8 @@
+.boxSkills{
+    background-image: url(../../assest/skills.png );
+    background-position: center ;
+    background-size: cover;
+    height: 126.5vh;
+    width: 100%;
+    position: relative;
+}
