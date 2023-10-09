@@ -3,6 +3,7 @@
     background-position: center;
     background-size: cover;
     height: 118.9vh;
+    max-height: 124vh;
     width: 100%;
     display: flex;
     justify-content: center;

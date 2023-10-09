@@ -41,7 +41,7 @@
     opacity: 0;
     transition: all 0.7s ease-in;
   }
-  .cardImage img:hover + .imgLayer{
+  .cardImage a:hover + .imgLayer{
     opacity: 1;
 }
 .imgLayer:hover{
