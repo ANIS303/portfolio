@@ -3,12 +3,12 @@
     background-position: center;
     background-size: cover;
     height: 118.9vh;
-    max-height: 124vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .boxHome h1 , h3{
     color: white;
     text-align: center;
@@ -19,6 +19,12 @@
         font-size: 4rem !important;
     }
   }
+  @media only screen and (min-width: 1500px) {
+   .boxHome{
+       height: 124vh;
+       background-position: bottom;
+   }
+ }
 
 .btedite{
     /* margin-top: 50px; */
