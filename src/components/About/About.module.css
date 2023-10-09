@@ -10,12 +10,37 @@ align-items: center;
 }
 
 
-
 @media only screen and (max-width: 600px) {
     .widimg img{
         min-width: 100%;
     }
+    .respon{
+    
+        margin-bottom:3rem ;
+        height: 70vh;
+    }
+    .boxAbout{
+        height: 150vh;
+    }
+    
   }
+  @media only screen and (max-width: 300px) {
+    .widimg img{
+        min-width: 100%;
+    }
+    .respon{
+    
+        margin-bottom:1rem ;
+        width: 100%;
+        height: 150vh;
+    }
+    .boxAbout{
+        height: 150vh;
+    }
+    
+  }
+
 .widimg{
-    margin-top: 10em;
+    margin-top: 12em;
+    padding-bottom:3rem ;
 }

@@ -25,9 +25,14 @@
        background-position: bottom;
    }
  }
-
+ @media only screen and (max-width: 350px) {
+    .boxHome{
+        margin-top: 5rem; 
+        height: 240vh;
+        }
+          }
+ 
 .btedite{
-    /* margin-top: 50px; */
     padding: 0.18rem 2rem ;
     font-size: 20px;
     border-radius: 18.68px;
