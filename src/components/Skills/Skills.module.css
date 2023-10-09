@@ -6,9 +6,9 @@
     width: 100%;
     position: relative;
 }
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .boxSkills{
-      height: 127.2vh;
+      height: 133.4vh;
       background-position: bottom;
   }
 }
